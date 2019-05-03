@@ -1,0 +1,21 @@
+action (Plus) {
+  description (calculation)
+  collect {
+    input (left) {
+      type (Left)
+      min (Required) max (One)
+    }
+    
+    input (right) {
+      type (Right)
+      min (Required) max (One)
+    }
+    input (operator) {
+      type (Operator)
+      min (Required) max (One)
+    }
+    
+  }
+  output (Result){
+  }
+}

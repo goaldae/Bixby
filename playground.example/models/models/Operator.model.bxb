@@ -1,0 +1,6 @@
+text (Operator) {
+  symbol (plus)
+  symbol (subtract)
+  symbol (multiplication)
+  symbol (division)
+}
